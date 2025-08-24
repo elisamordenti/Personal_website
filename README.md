@@ -101,11 +101,26 @@ Personal_website/
 
 ## Deployment
 
-To deploy this website:
+### Vercel (Recommended)
+1. **Install Vercel CLI**:
+   ```bash
+   npm i -g vercel
+   ```
 
-1. **Production Server**: Use a production WSGI server like Gunicorn
-2. **Static Hosting**: Deploy to services like Netlify, Vercel, or GitHub Pages
-3. **Cloud Platforms**: Deploy to Heroku, AWS, or Google Cloud Platform
+2. **Build the project**:
+   ```bash
+   npm run build
+   ```
+
+3. **Deploy to Vercel**:
+   ```bash
+   vercel --prod
+   ```
+
+### Other Options
+- **Netlify**: Drag and drop the `public` folder
+- **GitHub Pages**: Push the `public` folder to a `gh-pages` branch
+- **Any Static Hosting**: Use the files in the `public` directory
 
 ## Contributing
 
