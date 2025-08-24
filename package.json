@@ -8,13 +8,17 @@
     "dev": "nodemon server.js",
     "build": "echo 'No build step needed for static site'"
   },
-  "keywords": ["personal", "website", "portfolio"],
+  "keywords": [
+    "personal",
+    "website",
+    "portfolio"
+  ],
   "author": "Elisa Mordenti",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.1.10"
   }
 }
